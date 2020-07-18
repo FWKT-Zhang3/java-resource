@@ -481,7 +481,7 @@ arrayName = new type[length];
 
 
 
-## 9. 面向对象
+## 9. Java中的面向对象
 
 
 

@@ -1,5 +1,7 @@
 # Java笔记
 
+**Author: Ming Zhang**
+
 ## Table of Contents
 
 [TOC]

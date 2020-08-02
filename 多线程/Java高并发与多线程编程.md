@@ -87,7 +87,7 @@ public class FirstThread extends Thread {
 
 >  (*output*)
 >
-> ![image-20200725222901850](.\image\image-20200725222901850.png)
+> ![image-20200725222901850](./image/image-20200725222901850.png)
 
 上面程序显式创建了2个线程，但是实际上程序中有3个线程——程序<u>显式创建的2个线程</u>和<u>主线程</u>。当Java程序开始运行后，程序至少会创建一个主线程，该主线程的执行体不是由run()确定的，而是由main()方法确定的，<u>main()方法的方法体代表主线程的线程执行体</u>。
 
@@ -98,7 +98,7 @@ public class FirstThread extends Thread {
 > * 定义Runnable接口的实现类，并重写该接口的run()方法
 > * 创建该实现类的实例，以此实例作为Thread的target来创建Thread对象，该对象为线程对象
 
-![image-20200725231100470](.\image\image-20200725231100470.png)
+![image-20200725231100470](./image/image-20200725231100470.png)
 
 *（Java源码）*
 
@@ -246,7 +246,7 @@ public class ThirdThread {
 * 线程正在等待某个通知时，其他线程发出了一个通知
 * 处于挂起状态的线程被调用了resume()恢复方法
 
-![image-20200729011354030](.\image\image-20200729011354030.png)
+![image-20200729011354030](./image/image-20200729011354030.png)
 
 
 
